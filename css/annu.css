@@ -1,0 +1,96 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Paramètres pour la totalité du tableau */
+table {
+	width: 100% ;
+	margin: auto ;
+	border-collapse: collapse ;
+}
+
+/* Paramètres pour les cellules classiques ET les cellules d'en-tête */
+table th, table td {
+	border-bottom: 1px solid black ;	
+	padding: 5px ;
+}
+
+/* Paramètres pour les lignes d'en-tête uniquement */
+table thead tr {
+	background-color: #444 ;
+	color: #ffffff ; 
+}
+
+/* Paramètres pour les lignes de contenu */
+table tbody tr {
+	background-color: #f2ecfe ;
+}
+
+/* Paramètres pour les lignes de contenu paires */
+table tbody tr:nth-child(2n) { 
+	background-color: #f9f6ff ;
+}
+
+/* Paramètres pour les lignes de contenu au survol de la souris */
+table tbody tr:hover { 
+	background-color: #444 ;
+	color: #ffffff ; 
+}
+
+
+/*menu annuaire*/
+
+ /* Style the tab */
+.tab {
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  height: auto;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 80%;
+  height: auto;
+}
+
+/* test style barre de recherche */
+
+#testbar{
+  height: 45px;
+  
+  text-align: center;
+  background: #fff;
+border: 1px solid #ccc;
+border-top-color: #d9d9d9;
+border-radius: 30px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+cursor: default;
+}

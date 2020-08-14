@@ -1,0 +1,235 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.flashinf{
+    border: 2px groove red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+/* Texte défilant */
+.messagedefilant {
+  display: block;
+  margin:  auto;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 1.2em;
+}
+ 
+.messagedefilant div {
+  position: absolute;
+  min-width: 100%; /* au minimum la largeur du conteneur */
+}
+ 
+.messagedefilant div span, 
+.messagedefilant div:after {
+  position: relative;
+  display: inline-block;
+  font-size: 1.0rem;
+  white-space: nowrap;
+  top:0;
+}
+ 
+.messagedefilant div span {
+  animation-delay: 2s;
+  animation: defilement 10s infinite linear;
+}
+ 
+.messagedefilant div:after {
+  position: absolute;
+  top:0; left:0;
+  content:attr(data-text);
+  animation: defilement2 10s infinite linear;
+  background: #edc;
+}
+ 
+@keyframes defilement {
+  0% { margin-left: 100%; }
+  100% { margin-left: 0%; }
+}
+ 
+@keyframes defilement2 {
+  0% { margin-left: 100%; }
+  100% { margin-left: 0%; }
+}
+
+
+/*article */
+
+span a{
+  text-align: right;
+}
+
+/*  design article 1 */
+
+.art{
+  margin:2vh 10vh 0;
+  width: 80%;
+  height: 80vh;
+}
+
+.img_art img{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+    
+}
+
+.art .text_art{
+    position: relative;
+    margin: -50px 10%;
+    width: 80%;
+    height: auto;
+    border-top: red 5px solid;
+    background-color: white;
+    
+}
+
+.text_art h5{
+  text-align: center;
+  color: red;
+}
+
+.text_art h1{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.text_art p {
+    text-align: center;
+    color: black;
+}
+
+/* design article 2 */
+.art2{
+  margin: 0 10%;
+  width: 30%;
+  height: 80vh;
+}
+
+.art2 img{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+    
+}
+
+.art2 .text_art2{
+    position: relative;
+    margin: -50px 10%;
+    width: 80%;
+    height: auto;
+    border-top: red 5px solid;
+    background-color: white;
+    
+}
+
+.text_art2 h5{
+  text-align: center;
+  color: red;
+}
+
+.text_art2 h1{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.text_art2 p {
+    text-align: center;
+    color: black;
+}
+
+/* design article 3 et + */
+
+.art3{
+  margin: 0 10% 2em;
+  width: 60%;
+  height: 20vh;
+}
+
+.art3 img{
+    float: left;
+    width: 20%;
+    height: 20vh;
+    margin: 0;
+    
+}
+
+.art3 .text_art3{
+    float: right;
+    width: 80%;
+    padding: 0 0 0 1.1em;
+    height: auto;
+    background-color: white;
+    
+}
+
+.text_art3 h5{
+  text-align: left;
+  color: red;
+  text-decoration: underline;
+}
+
+.text_art3 h1{
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+
+.text_art3 p {
+    text-align: left;
+    color: black;
+}
+
+/* page article */
+
+.artsol{
+  margin:2vh 10vh 0;
+  
+  height: 80vh;
+}
+
+.img_artsol img{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+    
+}
+
+.artsol .text_artsol{
+    position: relative;
+    margin: -50px 10%;
+    width: 80%;
+    height: auto;
+    border-top: red 5px solid;
+    background-color: white;
+    
+}
+
+.text_artsol h5{
+  text-align: center;
+  color: red;
+}
+
+.text_artsol h1{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.text_artsol p {
+    text-align: none;
+    color: black;
+}

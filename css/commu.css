@@ -1,0 +1,11 @@
+.cardstat{
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+    border: 2px grey solid;
+}
+
+.imgcard{
+    height: 15em;
+    padding: 20px
+}

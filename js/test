@@ -1,0 +1,2 @@
+<button onClick="toggle('foo');">show</button>
+  <div id="foo">Ce contenu est visible ou non selon le cas</div>

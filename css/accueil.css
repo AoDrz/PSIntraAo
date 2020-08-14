@@ -1,0 +1,86 @@
+#p1{
+    height: 100vh;
+    padding: 2vh;
+}
+
+#p2{
+    padding: 5vh;
+    background: linear-gradient(to right, #5e194f , #b30023);
+    text-align: center;
+    color: white;
+}
+
+#t1{
+  color:#5e194f;
+  text-decoration: underline;
+}
+
+#t2{
+  color:  #b30023;
+}
+
+.titre{
+    text-align: center;
+    height: 15vh;
+    margin-top: 10%;
+    transform: translateY(-50%); 
+}
+
+.centrer{ 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+
+#canap{
+  min-height: 30vh;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: 70%;
+  background-image: url(../image/_canape.png)
+}
+
+#piedcanap{
+  text-align: center;
+  padding-top: 10em;
+  color: black;
+}
+
+.accp1{
+    height: 30vh;
+}
+
+.img-top{
+    border-radius: 40px;
+    height: 45px;
+}
+
+.accp2{
+    height: 30vh;
+}
+
+.accp3{
+    height: 30vh;
+}
+
+.article{
+    color:white;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.actu{
+    color: white;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.accadmin{
+    display: block;
+}
+.accmemb{
+    display:none;
+}
+
+.accp4{
+    height:5vh;
+}
